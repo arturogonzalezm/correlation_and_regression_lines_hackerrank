@@ -1,4 +1,4 @@
-from correlation import CorrelationContext, PearsonCorrelationStrategy
+from src.correlation import CorrelationContext, PearsonCorrelationStrategy
 
 if __name__ == "__main__":
     physics_scores = [15, 12, 8, 8, 7, 7, 7, 6, 5, 3]
