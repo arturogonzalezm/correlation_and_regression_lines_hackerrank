@@ -46,7 +46,7 @@ Where:
 - Ensure proper handling of floating-point precision for the three decimal place requirement
 
 ## Expected Workflow
-1. Read or initialize the Physics and History score arrays
+1. Read or initialise the Physics and History score arrays
 2. Calculate the means of both datasets
 3. Compute the numerator: sum of products of deviations
 4. Compute the denominator: square root of the product of sum of squared deviations
@@ -92,7 +92,7 @@ classDiagram
 
 ```mermaid
 flowchart TD
-    A[Start] --> B[Initialize Physics and History Scores Arrays]
+    A[Start] --> B[Initialise Physics and History Scores Arrays]
     B --> C[Create PearsonCorrelationStrategy Instance]
     C --> D[Create CorrelationContext with Strategy]
     D --> E[Call ctx.execute with score arrays]
